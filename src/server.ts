@@ -1,7 +1,8 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import {filterImageFromURL, deleteLocalFiles} from './util/util';
 import {Router, Request, Response} from 'express';
+import {filterImageFromURL, deleteLocalFiles} from './util/util';
+
 
 (async () => {
 
@@ -30,12 +31,11 @@ import {Router, Request, Response} from 'express';
 
   /**************************************************************************** */
 
-  app.get('/filteredimage', async(req: Request, res: Response) => {
-    const image_url = req.query.image_url.toString()
+  app.get('/filteredimage', async (req: Request, res: Response) => {
+    const image_url = req.query.image_url.toString();
 
     if (!image_url) {
       res.status(400).send('The URL of the image is required');
-      
     }
 
     const filtered_image = await filterImageFromURL(image_url);
