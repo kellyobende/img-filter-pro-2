@@ -51,4 +51,4 @@ Add your own domain name and have it point to the running services (try adding a
 
 
 ## My EBS endpoint
-http://img-filter-pro-2-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://scontent-lhr8-1.xx.fbcdn.net/v/t1.6435-9/72293294_10215418816038760_5163552619762810880_n.jpg?_nc_cat=107%26ccb=1-7%26_nc_sid=730e14%26_nc_ohc=VKUYcVDrxMsAX9Gh83H%26_nc_ht=scontent-lhr8-1.xx%26oh=00_AT-Fq5LXg2nyYrQXrogyo2yB_6JWf_2WO9HubJu8UB2TDw%26oe=633AD2B7
+http://img-filter-pro-2-dev.us-east-1.elasticbeanstalk.com/
